@@ -92,7 +92,7 @@ if not flatlaf_set:
 # _PUBLIC was appended to the name after 9.0.4
 # The "-" after .ghidra was changed to "_" after 9.0.4
 if tuple(map(int, (version.split(".")))) > (9, 0, 4):
-    version_path = f".ghidra_{version}_PUBLIC"
+    version_path = f".ghidra_{version}_DEV"
 else:
     version_path = f".ghidra-{version}"
 
